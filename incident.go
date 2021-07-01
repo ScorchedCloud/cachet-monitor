@@ -14,7 +14,7 @@ type Incident struct {
 	Name    string `json:"name"`
 	Message string `json:"message"`
 	Status  int    `json:"status"`
-	Visible int    `json"visible"`
+	Visible int    `json:"visible"`
 	Notify  bool   `json:"notify"`
 
 	ComponentID     int `json:"component_id"`
