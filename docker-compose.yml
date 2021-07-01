@@ -1,0 +1,8 @@
+version: '2'
+services:
+  cachet-monitor:
+    build: .
+    command: -c /config.yml
+    volumes:
+      - ./config.yml:/config.yml
+    restart: unless-stopped
